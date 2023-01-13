@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main(){
+float a;
+float b;
+printf("please enter the first floating point no : ");
+scanf("%f",&a);
+printf("\nplease enterr second value : ");
+scanf("%f",&b);
+printf("\nyour product is %f",a*b);
+}

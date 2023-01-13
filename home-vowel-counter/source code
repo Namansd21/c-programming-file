@@ -1,0 +1,21 @@
+
+#include <string.h>
+#include <stdio.h>
+
+int main()
+{
+    char w[100];
+    printf("please enter string : \n");
+    scanf("%[^\n]",w);
+    char *ptr[25];
+    *ptr = &w;
+    *ptr = tolower(*ptr);
+    int n = strlen(w);
+    int count = 0;
+    for(int i = 0; i <n;i++){
+        if(w[i] == 'a'||w[i] == 'e'||w[i] == 'i'||w[i] == 'o'||w[i] == 'u'){
+            count += 1;
+        }
+    }
+    printf("%d", count);
+}

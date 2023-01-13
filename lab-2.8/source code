@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{
+    float a ;
+    printf("please enter no in centimeter : ");
+    scanf("%f",&a);
+    printf("no in meters is %f",a/100);
+    printf("\nno in kilometers %f", a/100000);
+
+    return 0;
+}
